@@ -7,7 +7,7 @@ var gulp        = require('gulp'),
 gulp.task('less', function() {
   return gulp.src('./less/style.less')
     .pipe(less())
-    .pipe(gulp.dest('styles'));
+    .pipe(gulp.dest('less'));
 });
 
 // Watch for changes = first variable and run defined tasks = second variable
